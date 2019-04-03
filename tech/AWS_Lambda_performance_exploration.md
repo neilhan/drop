@@ -1,7 +1,6 @@
 # AWS Lambda performance exploration
-20190403
 
-| The work presented here is done by Intuit Futures team |
+| The work presented here is done by Intuit Futures team. 20190403 |
 
 As one benefit of a serverless architecture, Lambda has simplified performance tuning for development teams. 
 Developers can focus on coding and have less concerns over the conventional performance issues. 
@@ -29,3 +28,17 @@ The workload that we simulated in this exploration:
 - Each message in size is 1.5k bytes
 - Test duration: 1 minute
 
+## Concept of cold start 
+Cold start refers to a request being handled by a new Lambda instance. 
+When a Lambda instance is being created, the code needs to be copied and unpacked, 
+along with other initialization tasks. The result will be that the client will experience a slower response time. 
+It is related to Lambda scaling behavior, and as a developer, we don’t have direct control of it.
+
+The chart below shows what may happen with two Lambdas having different execution times. 
+In case 1, we have two separate requests with some time in-between. This means that the same instance can handle both requests.
+
+![cold start case 2](./aws_lambda_performance/case_2.png)
+
+With case 2, we also have two requests, but this time the second request arrives while the first one is still being handled. This means an additional instance is created to handle that request.
+
+![cold start case 2](./aws_lambda_performance/case_2.png)

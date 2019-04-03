@@ -1,6 +1,6 @@
 # drop
 
-This repo is a collection of log posts that may benefit the right readers. 
+This repo is a collection of posts that may benefit the right readers. 
 
 ## 20190403 [AWS Lambda performance exploration](./tech/AWS_Lambda_performance_exploration.md)
 

@@ -67,10 +67,10 @@ Our Lambda receives events from an SQS source, converts the message, then sends 
 The six data points are average Lambda execution times related to different memory settings.
 
 
-|  | 128m | 256m | 512m | 1024m | 2048m | 3008m |
+|     | 128m | 256m | 512m | 1024m | 2048m | 3008m |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Lambda (ms) | 386 | 174 | 88 | 53 | 52 | 53 |
-| SQS send (ms) | 270 | 130 | 62 | 37 | 35 | 35 |
+| *Lambda (ms)* | 386 | 174 | 88 | 53 | 52 | 53 |
+| *SQS send (ms)* | 270 | 130 | 62 | 37 | 35 | 35 |
 
 One thing that's different, from our observation, the execution time is “spiky”. 
 The execution time has noticeable standard deviations. Although they are in proportion 
@@ -79,4 +79,6 @@ To illustrate the spikiness, here is one chart of the execution time during one 
 
 ![execution time chart](./aws_lambda_performance/execution_time.png)
 
-The x-axis is each lambda call. The y-axis is execution time in ms.
+The x-axis is each lambda call. The y-axis is execution time in ms. It makes sense, 
+that the resource of lambda servers are shared with all Lambda customers. The allocated resource 
+is probably not reserverd and idle when our lambda is idle. 

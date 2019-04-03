@@ -72,3 +72,11 @@ The six data points are average Lambda execution times related to different memo
 | Lambda (ms) | 386 | 174 | 88 | 53 | 52 | 53 |
 | SQS send (ms) | 270 | 130 | 62 | 37 | 35 | 35 |
 
+One thing that's different, from our observation, the execution time is “spiky”. 
+The execution time has noticeable standard deviations. Although they are in proportion 
+to average execution time. 
+To illustrate the spikiness, here is one chart of the execution time during one of our tests:
+
+![execution time chart](./aws_lambda_performance/execution_time.png)
+
+The x-axis is each lambda call. The y-axis is execution time in ms.

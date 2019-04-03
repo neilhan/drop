@@ -1,7 +1,7 @@
 # AWS Lambda performance exploration
 20190403
 
-|The work presented here is done by Intuit Futures team|
+| The work presented here is done by Intuit Futures team |
 
 As one benefit of a serverless architecture, Lambda has simplified performance tuning for development teams. 
 Developers can focus on coding and have less concerns over the conventional performance issues. 

@@ -102,7 +102,7 @@ If you have a short timeout, the function will fail before it runs too long.
 With longer timeouts, the cost and response time can be greater. 
 Finding a balance is important.
 
-## Configure reserved concurrency
+## Configure Reserved Concurrency
 
 Each AWS account has a limit of total concurrent executions. 
 It’s across all functions within a region. The default is 1000. It can be changed.

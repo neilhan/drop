@@ -135,7 +135,7 @@ Using the price plan provided by AWS, the cost of calling the Lambda 1 million t
 | --- | ---: | ---: | ---: | ---: |
 | *Execution time (ms)* | 386 | 174 | 88 | 53 |
 | *Lambda x 1,000,000* | round to 100ms | 400000000 | 200000000 | 100000000 | 100000000 |
-| *Cost per 100ms *| 0.000000208 | 0.000000417 | 0.000000834 | 0.000001667 |
+| *Cost per 100ms*| 0.000000208 | 0.000000417 | 0.000000834 | 0.000001667 |
 | *Cost ($)* | 83.2 | 83.4 | 83.4 | 166.7 |
 
 ## Comparing to EC2

@@ -59,7 +59,7 @@ AWS Lambda allocates CPU power proportional to the memory by using the same rati
 as a general purpose Amazon EC2 instance type, such as an M3 type. 
 For example, if you allocate 256 MB memory, your Lambda function will 
 receive twice the CPU share than if you allocated only 128 MB."
-  https://docs.aws.amazon.com/lambda/latest/dg/resource-model.html
+  (https://docs.aws.amazon.com/lambda/latest/dg/resource-model.html)
 
 The chart below shows six data points collected from our experiment. 
 Our Lambda receives events from an SQS source, converts the message, then sends it to three downstream SQS queues.
@@ -115,8 +115,8 @@ which we can reserve concurrency from the total concurrent limit,
 so that when a surge of requests happened to other lambdas, 
 these critical services are still have concurrency reserved.
 
-https://docs.aws.amazon.com/lambda/latest/dg/concurrent-executions.html
-https://docs.aws.amazon.com/lambda/latest/dg/scaling.html
+(https://docs.aws.amazon.com/lambda/latest/dg/concurrent-executions.html)
+(https://docs.aws.amazon.com/lambda/latest/dg/scaling.html)
 
 ## Pricing
 Lambda cost is calculated by memory-time. It’s done using this formula:

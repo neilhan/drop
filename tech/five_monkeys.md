@@ -26,4 +26,4 @@ Because as far as they know *that's the way things are done around here.*
 
 
 ----------------
-[home](/README.md)
+[home](../README.md)

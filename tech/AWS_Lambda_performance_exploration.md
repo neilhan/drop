@@ -59,7 +59,7 @@ AWS Lambda allocates CPU power proportional to the memory by using the same rati
 as a general purpose Amazon EC2 instance type, such as an M3 type. 
 For example, if you allocate 256 MB memory, your Lambda function will 
 receive twice the CPU share than if you allocated only 128 MB."
-  (https://docs.aws.amazon.com/lambda/latest/dg/resource-model.html)
+  [ https://docs.aws.amazon.com/lambda/latest/dg/resource-model.html ]
 
 The chart below shows six data points collected from our experiment. 
 Our Lambda receives events from an SQS source, converts the message, then sends it to three downstream SQS queues.
@@ -91,7 +91,7 @@ you specify a timeout. When the specified timeout is reached,
 AWS Lambda terminates execution of your Lambda function. 
 We recommend you set this value based on your expected execution time. 
 The default timeout is 3 seconds." 
-  https://docs.aws.amazon.com/lambda/latest/dg/resource-model.html
+  [https://docs.aws.amazon.com/lambda/latest/dg/resource-model.html]
 
 What needs to be considered:
 - 15 minutes is the maximum timeout that AWS allows.
@@ -115,8 +115,8 @@ which we can reserve concurrency from the total concurrent limit,
 so that when a surge of requests happened to other lambdas, 
 these critical services are still have concurrency reserved.
 
-(https://docs.aws.amazon.com/lambda/latest/dg/concurrent-executions.html)
-(https://docs.aws.amazon.com/lambda/latest/dg/scaling.html)
+[ https://docs.aws.amazon.com/lambda/latest/dg/concurrent-executions.html ]
+[ https://docs.aws.amazon.com/lambda/latest/dg/scaling.html ]
 
 ## Pricing
 Lambda cost is calculated by memory-time. It’s done using this formula:
@@ -160,17 +160,17 @@ Average times:
 ![ec2 enqueue](./aws_lambda_performance/EC2_sqs_enqueue_2cpu_8G.png)
 
 ## Other performance related learnings
-1. Understanding scaling behavior: https://docs.aws.amazon.com/lambda/latest/dg/scaling.html
+1. Understanding scaling behavior: [https://docs.aws.amazon.com/lambda/latest/dg/scaling.html]
 2. The main process access to resources is limited to life time of the request. Execution context will freeze lambda once the main task complete. 
     a. Child process, if not completed, will resume when lambda instance called again. (not verified)
     b. Have file access to /tmp
-3. HTTPS keepAlive can save 70% of the network time. In our case, the time needs to send a message to SQS, is reduced to 25% of the time without keepAlive.  https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/
+3. HTTPS keepAlive can save 70% of the network time. In our case, the time needs to send a message to SQS, is reduced to 25% of the time without keepAlive.  [https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/]
 4. DoS attack maybe a concern
 
 Further reading:
-1. An exploration with Lambda performance: https://epsagon.com/blog/best-practices-for-aws-lambda-timeouts/
-2. Compare language performance https://read.acloud.guru/comparing-aws-lambda-performance-of-node-js-python-java-c-and-go-29c1163c2581
-3. A Lambda cost discussion: https://www.slideshare.net/TimWagner/serverlessconf-2017-keynote-debunking-serverless-myths
+1. An exploration with Lambda performance: [https://epsagon.com/blog/best-practices-for-aws-lambda-timeouts/]
+2. Compare language performance [https://read.acloud.guru/comparing-aws-lambda-performance-of-node-js-python-java-c-and-go-29c1163c2581]
+3. A Lambda cost discussion: [https://www.slideshare.net/TimWagner/serverlessconf-2017-keynote-debunking-serverless-myths]
 
 ----------------
 [home](/README.md)

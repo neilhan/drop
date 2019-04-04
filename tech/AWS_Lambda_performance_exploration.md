@@ -134,7 +134,7 @@ Using the price plan provided by AWS, the cost of calling the Lambda 1 million t
 |   | 128m | 256m | 512m | 1024m |
 | --- | ---: | ---: | ---: | ---: |
 | *Execution time (ms)* | 386 | 174 | 88 | 53 |
-| *Lambda x 1,000,000* | round to 100ms | 400000000 | 200000000 | 100000000 | 100000000 |
+| *Lambda x 1,000,000 round to 100ms* | 400000000 | 200000000 | 100000000 | 100000000 |
 | *Cost per 100ms*| 0.000000208 | 0.000000417 | 0.000000834 | 0.000001667 |
 | *Cost ($)* | 83.2 | 83.4 | 83.4 | 166.7 |
 
@@ -144,10 +144,10 @@ The following diagrams show how much time Lambda and EC2 needed to send messages
 Average times:
 
 
-|   | SQS call | Whole Function |
-| --- | ---: | ---: | ---: | ---: |
-| EC2 | 30ms | 31ms |
-| Lambda | 35ms | 50ms |
+|   | SQS call | Whole Function |   |
+| --- | ---: | ---: | ---: | ---: | --- |
+| EC2 | 30ms | 31ms |   |
+| Lambda | 35ms | 50ms |   |
 
 
 1. EC2 needs 30 ms on average

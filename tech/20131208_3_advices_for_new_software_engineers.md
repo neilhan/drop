@@ -45,7 +45,7 @@ Just like a CPU and flash memory. The paper is the memory, your brain is the CPU
 Researchers have big words for this, like cognitive mapping, causal mapping, distributed cognition, etc. 
 I read "Visible Thinking" by John Bryson, and "Mind maps" by Tony Buzan. 
 Although I do not use mind maps, I create bulletin points with indentations. 
-workflowy.com is a great app for this.
+[workflowy.com](https://workflowy.com) is a great app for this.
 I am amazed by how early schools teach kids mind-map. 
 It was a simple version, they call it "web".
 

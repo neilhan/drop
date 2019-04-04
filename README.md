@@ -6,7 +6,7 @@ This repo is a collection of posts that may benefit the right readers.
 
 Our team at work explored the performance character of AWS Lambda a few weeks earlier. This file has the learnings.
 
-## 20131208 [3 advices for new software engineers](./tech/20131208_3_advices_for_new_software_engineers.md)
+## 20131208 [Three advices for new software engineers](./tech/20131208_3_advices_for_new_software_engineers.md)
 
 Excited about your new career?
 

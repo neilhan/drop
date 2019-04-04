@@ -6,7 +6,8 @@ As one benefit of a serverless architecture, Lambda has simplified performance t
 Developers can focus on coding and have less concerns over the conventional performance issues. 
 The allocation of the share of CPU time are related to Lambda Memory configuration.
 
-The down side of the autoscaling is what’s called a “cold start”. This occurs when there are no requests incoming for a given Lambda instance, deeming it idle. 
+The down side of the autoscaling is what's called a "cold start". 
+This occurs when there are no requests incoming for a given Lambda instance, deeming it idle. 
 Once an instance idled for awhile, it may be removed to release resources. 
 When another request to come in, and all lambda instances are busy, a new Lambda instance will be initialized to serve the request. 
 For more information, refer to Concept of cold start section.
@@ -59,7 +60,7 @@ AWS Lambda allocates CPU power proportional to the memory by using the same rati
 as a general purpose Amazon EC2 instance type, such as an M3 type. 
 For example, if you allocate 256 MB memory, your Lambda function will 
 receive twice the CPU share than if you allocated only 128 MB."
-  [https://docs.aws.amazon.com/lambda/latest/dg/resource-model.html](https://docs.aws.amazon.com/lambda/latest/dg/resource-model.html)
+  [https://docs.aws.amazon.com/lambda/latest/dg/resource-model.html ](https://docs.aws.amazon.com/lambda/latest/dg/resource-model.html)
 
 The chart below shows six data points collected from our experiment. 
 Our Lambda receives events from an SQS source, converts the message, then sends it to three downstream SQS queues.

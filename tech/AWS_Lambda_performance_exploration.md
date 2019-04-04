@@ -171,3 +171,6 @@ Further reading:
 1. An exploration with Lambda performance: https://epsagon.com/blog/best-practices-for-aws-lambda-timeouts/
 2. Compare language performance https://read.acloud.guru/comparing-aws-lambda-performance-of-node-js-python-java-c-and-go-29c1163c2581
 3. A Lambda cost discussion: https://www.slideshare.net/TimWagner/serverlessconf-2017-keynote-debunking-serverless-myths
+
+----------------
+[home](/)

@@ -173,4 +173,4 @@ Further reading:
 3. A Lambda cost discussion: https://www.slideshare.net/TimWagner/serverlessconf-2017-keynote-debunking-serverless-myths
 
 ----------------
-[home](/)
+[home](/README.md)

@@ -6,6 +6,12 @@ This repo is a collection of posts that may benefit the right readers.
 
 Our team at work explored the performance character of AWS Lambda a few weeks earlier. This file has the learnings.
 
+## 20170522 [Learning path for ML, DL, RL, and Recommendation](./tech/20170522_Learning_path_ml.md)
+
+## 20150428 [Seven years](./tech/20150428_seven_years.md)
+
+For seven years I worked with at this place. 
+
 ## 20140603 [Books for software engineers](./tech/20140603_software_engineer_books.md)
 
 Books for software engineers.

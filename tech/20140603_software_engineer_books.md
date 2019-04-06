@@ -30,7 +30,7 @@ Here is the list of books that I read, and planned to read.
 * 7 habits - Stephen Covey
 * Getting things done - David Allen
 
-# Need to clean your head?
+# Need to clear your head?
 * Visible Thinking: Unlocking Causal Mapping for Practical Business Results 
   by Bryson, Ackermann, Eden, Finn 
   Causal mapping is not widely know. You will have less bad decisions once you start causal mapping.

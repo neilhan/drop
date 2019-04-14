@@ -2,6 +2,10 @@
 
 This repo is a collection of posts that may benefit the right readers. 
 
+## 20190414 [Spacemacs Ctrl-i Ctrl-m fix](./tech/20190414_spacemacs_ctrl_i_ctrl_m_fix.md)
+
+Emacs treat Ctrl-i as Tab, Ctrl-m as Enter. Here is how to fix it for Spacemacs.
+
 ## 20190403 [AWS Lambda performance exploration](./tech/20190403_AWS_Lambda_performance_exploration.md)
 
 Our team at work explored the performance character of AWS Lambda a few weeks earlier. This file has the learnings.

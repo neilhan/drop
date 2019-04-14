@@ -2,12 +2,15 @@
 
 For Evil mode, I am hope the ctrl-o and ctrl-i work as Vim does. 
 
-However emacs treat ctrl-i as Tab key, and ctrl-m as Enter key. To fix that, add the following two lines to .spacemacs file "(defun dotspacemacs/user-config". 
+However emacs treat ctrl-i as Tab key, and ctrl-m as Enter key. 
+To fix that, add the following two lines to .spacemacs file "(defun dotspacemacs/user-config". 
 
 ```.spacemacs
 (defun dotspacemacs/user-config ()
+  ..
   (define-key input-decode-map [?\C-i] [C-i])
   (define-key input-decode-map [?\C-m] [C-m])
+  ..
 )
 ```
 

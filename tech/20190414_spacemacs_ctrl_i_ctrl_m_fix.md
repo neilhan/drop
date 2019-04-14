@@ -9,12 +9,15 @@ To fix that, add the following two lines to .spacemacs file "(defun dotspacemacs
 (defun dotspacemacs/user-config ()
   ..
   (define-key input-decode-map [?\C-i] [C-i])
-  (define-key input-decode-map [?\C-m] [C-m])
+  (when (display-graphic-p)
+    (define-key input-decode-map [?\C-m] [C-m]))
   ..
 )
 ```
 
 Restart or refresh SPC f e R, and that will have the ctrl-i working in the evil mode forward.
+
+Ctrl-m is enter key in a terminal. 
 
 ----------------
 [home](../README.md)

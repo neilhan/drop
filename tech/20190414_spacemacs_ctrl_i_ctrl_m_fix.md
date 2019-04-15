@@ -1,9 +1,9 @@
 # Fixing Spacemacs Ctrl-i Ctrl-m
 
-For Evil mode, I am hope the ctrl-o and ctrl-i work as Vim does. 
+With Evil mode, I hoping the ctrl-o and ctrl-i work as Vim does. 
 
-However emacs treat ctrl-i as Tab key, and ctrl-m as Enter key. 
-To fix that, add the following two lines to .spacemacs file "(defun dotspacemacs/user-config". 
+However emacs treats ctrl-i as Tab key, and ctrl-m as Enter key. 
+To fix this, add the following two lines to ~/.spacemacs file "(defun dotspacemacs/user-config". 
 
 ```.spacemacs
 (defun dotspacemacs/user-config ()

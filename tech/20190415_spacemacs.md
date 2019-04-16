@@ -14,13 +14,14 @@ I updated the dotspacemacs-search-tools, switched to Ack. Smart search started t
 With Evil mode, I hoping the ctrl-o and ctrl-i work as Vim does.
 
 However emacs treats ctrl-i as Tab key, and ctrl-m as Enter key.
-To fix this, add the following two lines to ~/.spacemacs file "(defun dotspacemacs/user-config".
+To fix this, add the following three lines to ~/.spacemacs file "(defun dotspacemacs/user-config".
+With display-graphic-p ctrl-i and ctrl-m will only be set when running with GUI.
 
 ```.spacemacs
 (defun dotspacemacs/user-config ()
   ..
-  (define-key input-decode-map [?\C-i] [C-i])
   (when (display-graphic-p)
+    (define-key input-decode-map [?\C-i] [C-i])
     (define-key input-decode-map [?\C-m] [C-m]))
   ..
 )

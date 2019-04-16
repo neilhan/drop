@@ -2,6 +2,8 @@
 
 This repo is a collection of posts that may benefit the right readers. 
 
+## 20190415 [Spacemacs smart search couldn't ignore node_modules](./tech/20190415_spacemacs_smart_search_ignore_problem.md) 
+
 ## 20190414 [Spacemacs Ctrl-i Ctrl-m fix](./tech/20190414_spacemacs_ctrl_i_ctrl_m_fix.md)
 
 Emacs treat Ctrl-i as Tab, Ctrl-m as Enter. Here is how to fix it for Spacemacs.

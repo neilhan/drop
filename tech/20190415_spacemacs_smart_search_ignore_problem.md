@@ -1,4 +1,4 @@
-# Fixing Spacemacs Ctrl-i Ctrl-m
+# Fixing Spacemacs, smart search does not ignore node_modules
 
 Using spacemacs, the "smart search" function doesn't exclude node_modules. After trying for awhile,
 I updated the dotspacemacs-search-tools, switched to Ack. Smart search started to ignore node_modules.

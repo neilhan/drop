@@ -1,8 +1,8 @@
 # drop
 
-This repo is a collection of posts that may benefit the right readers. 
+This repo is a collection of posts that may benefit the right readers.
 
-## 20190415 [Spacemacs smart search couldn't ignore node_modules](./tech/20190415_spacemacs_smart_search_ignore_problem.md) 
+## 20190415 [Spacemacs smart search does not ignore node_modules](./tech/20190415_spacemacs_smart_search_ignore_problem.md)
 
 ## 20190414 [Spacemacs Ctrl-i Ctrl-m fix](./tech/20190414_spacemacs_ctrl_i_ctrl_m_fix.md)
 
@@ -16,7 +16,7 @@ Our team at work explored the performance character of AWS Lambda a few weeks ea
 
 ## 20150428 [Seven years](./tech/20150428_seven_years.md)
 
-For seven years I worked with at this place. 
+For seven years I worked with at this place.
 
 ## 20140603 [Books for software engineers](./tech/20140603_software_engineer_books.md)
 

@@ -3,7 +3,6 @@
 Using Spacemacs as Javascript backend development IDE, I needed to make following changes.
 
 - install tern, eslint, eslint-plugin-jest, jsonlint, standard npm packages globally.
-  npm install -g eslint eslint-plugin-jest tern jsonlint standard
 - enable javascript layer
 - Using spacemacs, the "smart search" function doesn't exclude node_modules. After trying for awhile,
   I updated the dotspacemacs-search-tools, switched to Ack. Smart search started to ignore node_modules.
@@ -11,7 +10,7 @@ Using Spacemacs as Javascript backend development IDE, I needed to make followin
 - add .eslintrc in the project root directory
 
 ```sh
-npm install -g tern
+npm install -g eslint eslint-plugin-jest tern jsonlint standard
 ```
 
 ```.spacemacs
@@ -91,6 +90,7 @@ Learned auto-complete and go-to-definition across files from [here](https://simp
 
 
 You can find my .spacemacs file [here](https://github.com/neilhan/docker_collection/blob/master/serverless/container/home/.spacemacs)
+
 ----------------
 [home](../README.md)
 

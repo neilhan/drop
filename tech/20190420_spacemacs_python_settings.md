@@ -36,7 +36,7 @@ This should fix issues including:
 - autocomplete
 
 ## debugging
-I found debugging is still not as good as PyCharm. I use Pudb for debugging.
+I found debugging is still not as good as PyCharm. I use [Pudb](https://pypi.org/project/pudb/) for debugging.
 
 You can find my .spacemacs file [here](https://github.com/neilhan/docker_collection/blob/master/serverless/container/home/.spacemacs)
 

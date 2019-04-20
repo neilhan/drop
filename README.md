@@ -2,6 +2,8 @@
 
 This repo is a collection of posts that may benefit the right readers.
 
+## 20190419 [Spacemacs Javascript settings](./tech/20190419_spacemacs_javascript_settings.md)
+
 ## 20190415 [Spacemacs learnings](./tech/20190415_spacemacs.md)
 
 Issues that I had when using Spacemacs.

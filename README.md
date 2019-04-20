@@ -2,6 +2,8 @@
 
 This repo is a collection of posts that may benefit the right readers.
 
+## 20190420 [:construction: Spacemacs as Python IDE](.tech/20190420_spacemacs_python_settings.md)
+
 ## 20190419 [Spacemacs as Javascript IDE settings](./tech/20190419_spacemacs_javascript_settings.md)
 
 ## 20190415 [Spacemacs learnings](./tech/20190415_spacemacs.md)

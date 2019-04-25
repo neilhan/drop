@@ -1,4 +1,4 @@
-# Fixing Spacemacs for python development
+# Spacemacs setup for python development
 
 Using Spacemacs as Python3 backend development IDE, I needed to make following changes.
 

@@ -46,7 +46,7 @@ I read "Visible Thinking" by John Bryson, and "Mind maps" by Tony Buzan.
 Although I do not use mind maps, I use tree structures to capture ideas, todos, projects, and information.
 [workflowy.com](https://workflowy.com) is a great app for this.
 
-I also received huge benefit from "Getting things done" by David Allen.
+I also received huge benefit from "Getting things done" by David Allen. It is the bible of productivity.
 
 I am amazed by how early Canadian schools teach kids mind-map.
 It was a simple version, they call it "web".

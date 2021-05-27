@@ -18,7 +18,7 @@ Our team at work explored the performance character of AWS Lambda a few weeks ea
 
 ## 20150428 [Seven years](./tech/20150428_seven_years.md)
 
-For seven years I worked with at this place.
+I worked here for seven years.
 
 ## 20140603 [Books for software engineers](./tech/20140603_software_engineer_books.md)
 

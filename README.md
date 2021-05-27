@@ -16,7 +16,7 @@ Our team at work explored the performance character of AWS Lambda a few weeks ea
 
 ## 20170522 [Learning path for ML, DL, RL, and Recommendation](./tech/20170522_Learning_path_ml.md)
 
-## 20150428 [Seven years](./tech/20150428_seven_years.md)
+## 20150428 [Seven years](./tech/20150228_seven_years.md)
 
 I worked here for seven years.
 

@@ -38,4 +38,4 @@ That's how things are done here.
 ## About me
 Neil Han
 
-I am ...
+I am that I am.

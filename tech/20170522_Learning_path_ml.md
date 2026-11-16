@@ -20,7 +20,7 @@ Much of our future is related to AI. It's time to understand and apply current A
 I needed a refresher on statistics:
 Basic Statistics - Matthijs Rooduijn, Emiel van Loon,  University of Amsterdam
 
-When learn a new thing, I prefer knowing thoroughly. After going through the courses, I found books give me more confidence.
+When learning a new thing, I prefer knowing it thoroughly. After going through the courses, I found that books give me more confidence.
 
 "Introduction to Machine Learning" by Ethem Alpaydin. This book is highly recommended.
 

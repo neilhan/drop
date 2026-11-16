@@ -2,17 +2,17 @@
 
 20150428
 
-I am leaving the place that I have worked with for seven years.
+I am leaving the place that I have worked at for seven years.
 
 Seven years is a long time. It's also short. It became the past before I knew it.
 
-I remember how it was when I started. I had my pride, and kicking around trying to change the world. I was passionate, even stubborn from time to time.
+I remember how it was when I started. I had my pride, and was kicking around trying to change the world. I was passionate, even stubborn from time to time.
 
-Here is what I have learned. The order of the lessons were from abstract to concrete.
+Here is what I have learned. The order of the lessons is from abstract to concrete.
 
-* There isn't "I". That's an illusion. If you do things for "I", think again. You will find the whole world is against you. This is hard to get, but this is the most beneficial treat that one can have. It will give you a clear mind. The Sr manager at my department has one of this kind mind.
-* Cooperate. Item 1 is not easy. Cooperate is the next best quality one can have. Among your team members, or within your organization, there must be some common goals, otherwise we would not be working together. 
-* Listen without fear. Open minded listening is rear. Listening is a sign of a matured mind. 
+* There isn't "I". That's an illusion. If you do things for "I", think again. You will find the whole world is against you. This is hard to get, but this is the most beneficial trait that one can have. It will give you a clear mind. The Sr manager in my department has this kind of mind.
+* Cooperate. Item 1 is not easy. Cooperation is the next best quality one can have. Among your team members, or within your organization, there must be some common goals, otherwise we would not be working together. 
+* Listen without fear. Open-minded listening is rare. Listening is a sign of a mature mind. 
 * Learn and teach. Have a mentor and be a mentor. Create "play books" and share with your team. 
 
 I am grateful beyond what I can express. 

@@ -1,10 +1,10 @@
 # Fixing Spacemacs, smart search does not ignore node_modules
 
-Using Spacemacs as Javascript backend development IDE, I needed to make following changes.
+Using Spacemacs as a Javascript backend development IDE, I needed to make the following changes.
 
 - install tern, eslint, eslint-plugin-jest, jsonlint, standard npm packages globally.
 - enable javascript layer
-- Using spacemacs, the "smart search" function doesn't exclude node_modules. After trying for awhile,
+- Using spacemacs, the "smart search" function doesn't exclude node_modules. After trying for a while,
   I updated the dotspacemacs-search-tools, switched to Ack. Smart search started to ignore node_modules.
 - add .tern-project in the project root directory
 - add .eslintrc in the project root directory

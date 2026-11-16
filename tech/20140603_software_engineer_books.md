@@ -2,7 +2,7 @@
 
 20140503
 
-Here is the list of books that I read, and planned to read.
+Here is the list of books that I have read, and plan to read.
 
 # Basics
 * Design patterns - Ralph Johnson, John Vlissides, Richard Helm, and Erich Gamma
@@ -33,7 +33,7 @@ Here is the list of books that I read, and planned to read.
 # Need to clear your head?
 * Visible Thinking: Unlocking Causal Mapping for Practical Business Results 
   by Bryson, Ackermann, Eden, Finn 
-  Causal mapping is not widely know. You will have less bad decisions once you start causal mapping.
+  Causal mapping is not widely known. You will make fewer bad decisions once you start causal mapping.
 
 Other books that are not on the list, although they are as important as the books above. 
 For example, test driven, and domain driven.
@@ -43,16 +43,16 @@ If I have one thing to say to myself 20 years ago, I would say this:
 The irony is that you will know how ignorant you are only when you are ready. 
 Some people never will."
 
-For 20 years, I have been doing software development. It's a shocking long time, yet went by fast.
+For 20 years, I have been doing software development. It's a shockingly long time, yet it went by fast.
 
-When you look at the path of a software professional, a pretty good choice for those enjoy self-torture. 
-Starts the day you graduated, actually it starts event before you step out of your school. 
-You took a whole bunch courses. 
-Back to my days, they were hardware, network, OS, DB, logic, discrete mathematics, etc. 
-Then you learned your first programming language. After a while, it was the second, the third, 
+When you look at the path of a software professional, it's a pretty good choice for those who enjoy self-torture. 
+It starts the day you graduate—actually, it starts even before you step out of school. 
+You took a whole bunch of courses. 
+Back in my days, they were hardware, network, OS, DB, logic, discrete mathematics, etc. 
+Then you learned your first programming language. After a while, it was the second, the third; 
 soon you will stop counting. There will be a lot of ah-ha moments. I enjoyed them immensely.
 
-That's only the beginning. There are much to learn. Things like being patient 
+That's only the beginning. There is much to learn. Things like being patient 
 while extending your hands to people who need a hand but refuse yours.
 
 ----------------

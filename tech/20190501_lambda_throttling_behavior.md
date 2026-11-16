@@ -14,11 +14,11 @@ On reaching the concurrency limit, any further invocation requests are throttled
   - Asynchronous invocation
     AWS Lambda service retries the event for up to 6 hours with delays between retries.
 - Poll-based event sources. AWS Lambda service polls streams or queue.
-  - stream-based. Kinesis, DynamoBD
+  - stream-based. Kinesis, DynamoDB
     AWS Lambda service attempts to process the batch until it expires. The throttled batch is blocking the shard.
   - not stream-based. SQS
-    AWS Lambda service attempts to process the batch until it's succesfully invoked, or until it expires.
-    During a "visibility timeout", this message will not be seen by other consumers, not being processed.'VisibilityTimeout'
+    AWS Lambda service attempts to process the batch until it's successfully invoked, or until it expires.
+    During a "visibility timeout", this message will not be seen by other consumers, not being processed ('VisibilityTimeout').
     After expiry time 'MessageRetentionPeriod', the message will be deleted from SQS.
 
 Lambda polls - kinesis, DynamoDB, SQS - Lambda polls

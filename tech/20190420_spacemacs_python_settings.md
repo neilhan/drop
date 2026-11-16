@@ -1,12 +1,12 @@
 # Spacemacs setup for python development
 
-Using Spacemacs as Python3 backend development IDE, I needed to make following changes.
+Using Spacemacs as a Python3 backend development IDE, I needed to make the following changes.
 
 - install python3-venv and pudb for go-to-definition to work properly
 - python3 language needs flycheck-python-pycompile-executable to be set to "python3"
 - env PYTHONPATH may also be set properly.
 
-to have go-to-definition working properly, the project needs a venv and activation in emacs.
+To have go-to-definition working properly, the project needs a venv and activation in emacs.
 ```sh
 cd your_project_dir
 python3 -m venv env

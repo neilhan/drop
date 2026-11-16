@@ -1,6 +1,6 @@
 # Five monkeys
 
-Five monkeys locked in a cage. 
+Five monkeys are locked in a cage. 
 
 Hang a banana from the roof on a string and place a set of stairs under it. 
 
@@ -8,9 +8,9 @@ The monkeys will start to climb toward the banana.
 
 Once a monkey touches the stairs, hose the other monkeys with cold water. 
 
-If another monkey makes an attempt with the same result. All the other are sprayed with cold water. 
+If another monkey makes an attempt with the same result, all the others are sprayed with cold water. 
 
-Soon monkeys will try prevent anyone to try again. 
+Soon the monkeys will try to prevent anyone from trying again. 
 
 Now, replace a monkey with a new one. The new monkey sees the banana and climbs the stairs. 
 All the other monkeys attack him. After another attempt and attack, 

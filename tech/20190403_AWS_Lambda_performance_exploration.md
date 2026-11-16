@@ -3,13 +3,13 @@
 | The work presented here is done by Intuit Futures team. 20190403 |
 
 As one benefit of a serverless architecture, Lambda has simplified performance tuning for development teams. 
-Developers can focus on coding and have less concerns over the conventional performance issues. 
-The allocation of the share of CPU time are related to Lambda Memory configuration.
+Developers can focus on coding and have fewer concerns over the conventional performance issues. 
+The allocation of the share of CPU time is related to Lambda Memory configuration.
 
 The down side of the autoscaling is what's called a "cold start". 
 This occurs when there are no requests incoming for a given Lambda instance, deeming it idle. 
-Once an instance idled for awhile, it may be removed to release resources. 
-When another request to come in, and all lambda instances are busy, a new Lambda instance will be initialized to serve the request. 
+Once an instance is idle for a while, it may be removed to release resources. 
+When another request comes in, and all lambda instances are busy, a new Lambda instance will be initialized to serve the request. 
 For more information, refer to Concept of cold start section.
 
 In your Lambda code, you can create concurrent or parallel threads. But once the main thread stops, all child threads will be stopped. This is useful since you are charged by how long your function runs for, so you can perform multiple tasks at once.
@@ -26,7 +26,7 @@ The performance tests were done on a Lambda that we developed.
 The workload that we simulated in this exploration:
 - 10 concurrent clients
 - Each client sends 1 request per second
-- Each message in size is 1.5k bytes
+- Each message size is 1.5k bytes
 - Test duration: 1 minute
 
 ## Concept of cold start 
@@ -48,7 +48,7 @@ This means an additional instance is created to handle that request.
 
 ![cold start case 2](./aws_lambda_performance/case_2.png)
 
-Depends on your interest, you can implement solutions to keep your lambda warm. 
+Depending on your interest, you can implement solutions to keep your lambda warm. 
 For example using AWS Batch service to schedule a job to call
 your lambda every 10 minutes. You will need to simulate concurrent requests.
 
@@ -74,15 +74,14 @@ The six data points are average Lambda execution times related to different memo
 | *SQS send (ms)* | 270 | 130 | 62 | 37 | 35 | 35 |
 
 One thing that's different, from our observation, the execution time is “spiky”. 
-The execution time has noticeable standard deviations. Although they are in proportion 
-to average execution time. 
+The execution time has noticeable standard deviations, although they are proportional to the average execution time. 
 To illustrate the spikiness, here is one chart of the execution time during one of our tests:
 
 ![execution time chart](./aws_lambda_performance/execution_time.png)
 
 The x-axis is each lambda call. The y-axis is execution time in ms. It makes sense, 
-that the resource of lambda servers are shared with all Lambda customers. The allocated resource 
-is probably not reserverd and idle when our lambda is idle. 
+that the resources of lambda servers are shared with all Lambda customers. The allocated resource 
+is probably not reserved and idle when our lambda is idle. 
 
 ## Configure Timeout
 
@@ -96,7 +95,7 @@ The default timeout is 3 seconds."
 
 What needs to be considered:
 - 15 minutes is the maximum timeout that AWS allows.
-- Chooce between “fail fast” vs. “success for cold starts”
+- Choose between “fail fast” vs. “success for cold starts”
 
 Your timeout length depends on the customer experience and cost. 
 If you have a short timeout, the function will fail before it runs too long. 
@@ -113,8 +112,8 @@ When the total concurrent limit is reached, lambda requests will be throttled.
 The limit is enforced against the sum of all lambdas by default. 
 Which may become a problem. We may have critical services 
 which we can reserve concurrency from the total concurrent limit, 
-so that when a surge of requests happened to other lambdas, 
-these critical services are still have concurrency reserved.
+so that when a surge of requests happens to other lambdas, 
+these critical services still have concurrency reserved.
 
 [https://docs.aws.amazon.com/lambda/latest/dg/concurrent-executions.html](https://docs.aws.amazon.com/lambda/latest/dg/concurrent-executions.html)
 [https://docs.aws.amazon.com/lambda/latest/dg/scaling.html](https://docs.aws.amazon.com/lambda/latest/dg/scaling.html)
@@ -137,7 +136,7 @@ Using the price plan provided by AWS, the cost of calling the Lambda 1 million t
 | *Cost ($)* | 83.2 | 83.4 | 83.4 | 166.7 |
 
 ## Comparing to EC2
-To better understand Lambda behaviour, we ran the same logic on an T2.large EC2 instance. 
+To better understand Lambda behaviour, we ran the same logic on a T2.large EC2 instance. 
 The following diagrams show how much time Lambda and EC2 needed to send messages to our SQS.
 Average times:
 
@@ -150,7 +149,7 @@ Average times:
 
 1. EC2 needs 30 ms on average
 2. Lambda needs 35 ms on average
-3. EC2 needs 31 ms in average to complete each call
+3. EC2 needs 31 ms on average to complete each call
 4. Lambda requires 19 ms extra execution time - 50 ms average to complete each call
 5. Lambda execution time is less consistent. We believe it is likely caused by shared hardware on AWS
 
@@ -159,11 +158,11 @@ Average times:
 
 ## Other performance related learnings
 1. Understanding scaling behavior: [https://docs.aws.amazon.com/lambda/latest/dg/scaling.html](https://docs.aws.amazon.com/lambda/latest/dg/scaling.html)
-2. The main process access to resources is limited to life time of the request. Execution context will freeze lambda once the main task complete. 
-    a. Child process, if not completed, will resume when lambda instance called again. (not verified)
+2. The main process access to resources is limited to the lifetime of the request. Execution context will freeze lambda once the main task completes. 
+    a. Child process, if not completed, will resume when the lambda instance is called again. (not verified)
     b. Have file access to /tmp
-3. HTTPS keepAlive can save 70% of the network time. In our case, the time needs to send a message to SQS, is reduced to 25% of the time without keepAlive.  [https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/](https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/)
-4. DoS attack maybe a concern
+3. HTTPS keepAlive can save 70% of the network time. In our case, the time needed to send a message to SQS is reduced to 25% of the time without keepAlive.  [https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/](https://theburningmonk.com/2019/02/lambda-optimization-tip-enable-http-keep-alive/)
+4. DoS attacks may be a concern
 
 Further reading:
 1. An exploration with Lambda performance: [https://epsagon.com/blog/best-practices-for-aws-lambda-timeouts/](https://epsagon.com/blog/best-practices-for-aws-lambda-timeouts/)

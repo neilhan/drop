@@ -1,13 +1,13 @@
-# Three advices for new software engineers
+# Three pieces of advice for new software engineers
 
-You have chosen a life of learning. Which is tiring sometimes, but most of the time is full of excitements.
-You will find yourself living in an ecosystem; an fast evolving ecosystem. It's still young.
+You have chosen a life of learning, which is tiring sometimes, but most of the time is full of excitement.
+You will find yourself living in an ecosystem; a fast-evolving ecosystem. It's still young.
 
 "Nothing is withheld from us what we have conceived to do." ~ Russell Kirsch
 
-You need some passionate, patient, some obsession about details.
-if you like challenges, you are at the right field.
-You will never be bored here. In this industry, you may do one thing twice, at the third time,
+You need some passion, patience, and some obsession with details.
+If you like challenges, you are in the right field.
+You will never be bored here. In this industry, you may do one thing twice; by the third time,
 you will need to think about how to automate it.
 
 This career might not be the most stressful one, but it can be at times.
@@ -22,8 +22,8 @@ anything that you want to become, talk to them and do what you can. Your wish wi
 
 I often see a thing that slows down young engineers. It's self-centered fear.
 The value of you is how your team values you. No matter how right you are,
-"you are right" doesn't equal to your value. Almost 100% of more experienced people want to help you grow.
-But it's hard to help a non receptive person. You may feel frustrated about the micro management,
+"you are right" doesn't equal your value. Almost 100% of more experienced people want to help you grow.
+But it's hard to help a non-receptive person. You may feel frustrated about the micro management,
 or why your work and ideas are not valued. You may find that when you switch places,
 things do not change. You may be what needs to change.
 
@@ -36,7 +36,7 @@ instead ask yourself, what can I learn from this? What will benefit everybody th
 Your mind can only hold a limited amount of ideas. Write them down, record them, and reflect, review frequently.
 
 The problem is you will usually stop exploring once your mind has a few things.
-If you write them down, or draw a couple connected cycles on a piece of paper,
+If you write them down, or draw a couple of connected cycles on a piece of paper,
 you will find that you are ready to think further again. Doing this,
 you will cover a much greater area that your mind couldn't without external storage.
 
@@ -55,7 +55,7 @@ It was a simple version, they call it "web".
 
 Everyone has an ultimate question about life. It may be your principle, or personal constitution,
 it may be about the meaning, or purpose of your life. It is not an easy question.
-Start that journey and make sure get to the end. The earlier you find the answer,
+Start that journey and make sure you get to the end. The earlier you find the answer,
 the more effective you can be.
 
 ----------------

@@ -1,6 +1,6 @@
 # Fixing Spacemacs, smart search does not ignore node_modules
 
-Using spacemacs, the "smart search" function doesn't exclude node_modules. After trying for awhile,
+Using spacemacs, the "smart search" function doesn't exclude node_modules. After trying for a while,
 I updated the dotspacemacs-search-tools, switched to Ack. Smart search started to ignore node_modules.
 
 ```.spacemacs
@@ -11,9 +11,9 @@ I updated the dotspacemacs-search-tools, switched to Ack. Smart search started t
 
 # Fixing Spacemacs Ctrl-i Ctrl-m
 
-With Evil mode, I hoping the ctrl-o and ctrl-i work as Vim does.
+With Evil mode, I was hoping ctrl-o and ctrl-i would work as Vim does.
 
-However emacs treats ctrl-i as Tab key, and ctrl-m as Enter key.
+However, emacs treats ctrl-i as the Tab key, and ctrl-m as the Enter key.
 To fix this, add the following three lines to ~/.spacemacs file "(defun dotspacemacs/user-config".
 With display-graphic-p ctrl-i and ctrl-m will only be set when running with GUI.
 
